@@ -1,0 +1,11 @@
+.rnr-heading_2 {
+  @apply mt-4;
+}
+
+.rnr-paragraph {
+  @apply py-2;
+}
+
+.rnr-image {
+  @apply py-6 ml-auto mr-auto;
+}
