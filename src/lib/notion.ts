@@ -1,5 +1,5 @@
 import { Client } from "@notionhq/client";
-import type { DatabaseObjectResponse, PageObjectResponse } from "@notionhq/client/build/src/api-endpoints";
+import type { DatabaseObjectResponse } from "@notionhq/client/build/src/api-endpoints";
 
 // Initializing a client
 export const notion = new Client({
