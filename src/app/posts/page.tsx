@@ -36,7 +36,9 @@ export default async function PostsPage() {
                       </Link>
                     </h2>
                     <span>
-                      {DateTime.fromISO(post.date).toLocaleString(DateTime.DATE_FULL)}
+                      <time dateTime={post.date}>
+                        {DateTime.fromISO(post.date).toLocaleString(DateTime.DATE_FULL)}
+                      </time>
                       {' '}
                       |
                       {' '}
@@ -51,7 +53,7 @@ export default async function PostsPage() {
                 <div className="flex justify-center sm:justify-end font-medium leading-6">
                   <Link
                     href={`/posts/${post.slug}`}
-                    className="cta text-white-water bg-primary before:bg-moss-green-100"
+                    className="cta before:bg-moss-green-100"
                     aria-label={`Read "${post.slug}"`}
                   >
                     <span className="flex items-center py-1 px-2 z-10">

@@ -38,7 +38,7 @@ export default function TopNav() {
 
   return (
     <div
-      className={`fixed w-screen top-0 z-20`}
+      className="fixed w-screen top-0 z-20"
     >
       <Disclosure
         as="nav"

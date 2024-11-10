@@ -59,7 +59,7 @@ h2 {
   }
 
   .cta {
-    @apply flex items-center rounded-md transition-all duration-1000 overflow-hidden relative;
+    @apply flex items-center bg-primary text-background rounded-md transition-all duration-1000 overflow-hidden relative;
   }
 
   .cta::before {
